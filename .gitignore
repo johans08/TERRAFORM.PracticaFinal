@@ -1,0 +1,33 @@
+# Terraform core
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform lock (opcional: en empresas muchas veces SÍ se versiona)
+.terraform.lock.hcl
+
+# Variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Archivos override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan files
+*.tfplan
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos generados
+diagrama.png
+diagrama.svg
+diagrama.pdf
